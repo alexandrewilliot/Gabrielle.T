@@ -928,285 +928,312 @@ summary {
 </div>
 <div id="matrice-corrélation-pearson" class="section level1">
 <h1>matrice corrélation pearson</h1>
-<pre><code>##                         QPS_complexite QPS_autonomie QPS_interaction
-## QPS_complexite                    1.00          0.19            0.55
-## QPS_autonomie                     0.19          1.00            0.05
-## QPS_interaction                   0.55          0.05            1.00
-## QPS_changement                    0.43          0.39            0.18
-## QPS_incertitude                   0.41          0.28            0.26
-## QPS_vision_hiérarchique           0.38          0.51            0.47
-## QPS_flexibilité                   0.47         -0.08            0.27
-## QPS_TOTAL                         0.80          0.56            0.67
-## QE_focused                       -0.30          0.11            0.04
-## QE_reward                        -0.09          0.07           -0.03
-## QE_total                         -0.19          0.09            0.00
-## QA_ease                          -0.03          0.11           -0.12
-## QA_attractive                    -0.26         -0.23           -0.06
-## QA_comprehen                     -0.10         -0.11           -0.10
-## QA_function                       0.13         -0.09           -0.36
-## QSPD_rational                    -0.11         -0.18            0.04
-## QSPD_intuitive                   -0.22          0.42           -0.06
-## QSPD_dependent                    0.22          0.08            0.30
-## QSPD_avoidant                     0.32          0.17            0.04
-## QSPD_spontaneous                  0.09          0.16           -0.01
-## QCA_motivation                    0.31         -0.16            0.67
-## QCA_explanation                  -0.04         -0.09           -0.16
-## QCA_metacognition                -0.23         -0.30            0.26
-## QCA_behavior                     -0.08         -0.16            0.17
-## QCA_internal                     -0.09         -0.25            0.10
-## QCA_external                     -0.31         -0.39            0.23
-## QCA_temporal                     -0.04         -0.19            0.46
-## QCA_total                        -0.10         -0.32            0.34
-## Acc_Total                         0.08         -0.14           -0.14
-## RT_Total                          0.09         -0.11           -0.05
-##                         QPS_changement QPS_incertitude QPS_vision_hiérarchique
-## QPS_complexite                    0.43            0.41                    0.38
-## QPS_autonomie                     0.39            0.28                    0.51
-## QPS_interaction                   0.18            0.26                    0.47
-## QPS_changement                    1.00            0.31                    0.12
-## QPS_incertitude                   0.31            1.00                    0.05
-## QPS_vision_hiérarchique           0.12            0.05                    1.00
-## QPS_flexibilité                   0.43            0.06                    0.11
-## QPS_TOTAL                         0.61            0.56                    0.65
-## QE_focused                       -0.28           -0.24                    0.00
-## QE_reward                        -0.03            0.06                   -0.15
-## QE_total                         -0.15           -0.07                   -0.10
-## QA_ease                           0.07           -0.19                    0.16
-## QA_attractive                    -0.13           -0.33                    0.08
-## QA_comprehen                     -0.02           -0.08                   -0.06
-## QA_function                       0.17           -0.18                    0.01
-## QSPD_rational                    -0.45            0.09                    0.18
-## QSPD_intuitive                   -0.04           -0.24                    0.30
-## QSPD_dependent                   -0.02            0.39                   -0.02
-## QSPD_avoidant                     0.15            0.40                   -0.19
-## QSPD_spontaneous                  0.30           -0.16                   -0.01
-## QCA_motivation                   -0.15            0.28                    0.09
-## QCA_explanation                  -0.35           -0.34                    0.23
-## QCA_metacognition                -0.43           -0.02                    0.08
-## QCA_behavior                     -0.07            0.30                    0.11
-## QCA_internal                     -0.35           -0.11                    0.07
-## QCA_external                     -0.49           -0.19                   -0.03
-## QCA_temporal                     -0.18            0.18                    0.06
-## QCA_total                        -0.43            0.01                    0.14
-## Acc_Total                        -0.13            0.11                    0.05
-## RT_Total                          0.11            0.01                    0.10
-##                         QPS_flexibilité QPS_TOTAL QE_focused QE_reward QE_total
-## QPS_complexite                     0.47      0.80      -0.30     -0.09    -0.19
-## QPS_autonomie                     -0.08      0.56       0.11      0.07     0.09
-## QPS_interaction                    0.27      0.67       0.04     -0.03     0.00
-## QPS_changement                     0.43      0.61      -0.28     -0.03    -0.15
-## QPS_incertitude                    0.06      0.56      -0.24      0.06    -0.07
-## QPS_vision_hiérarchique            0.11      0.65       0.00     -0.15    -0.10
-## QPS_flexibilité                    1.00      0.47      -0.44     -0.34    -0.41
-## QPS_TOTAL                          0.47      1.00      -0.22     -0.10    -0.17
-## QE_focused                        -0.44     -0.22       1.00      0.66     0.87
-## QE_reward                         -0.34     -0.10       0.66      1.00     0.94
-## QE_total                          -0.41     -0.17       0.87      0.94     1.00
-## QA_ease                            0.10      0.01       0.00      0.20     0.13
-## QA_attractive                     -0.02     -0.22       0.25      0.30     0.30
-## QA_comprehen                       0.11     -0.10      -0.04      0.36     0.22
-## QA_function                        0.25     -0.05      -0.42     -0.25    -0.35
-## QSPD_rational                     -0.08     -0.09       0.14      0.14     0.15
-## QSPD_intuitive                     0.07      0.06       0.24     -0.06     0.06
-## QSPD_dependent                    -0.06      0.22       0.05      0.10     0.09
-## QSPD_avoidant                      0.08      0.22       0.08      0.16     0.14
-## QSPD_spontaneous                   0.19      0.10      -0.06     -0.07    -0.08
-## QCA_motivation                     0.17      0.30      -0.01     -0.11    -0.08
-## QCA_explanation                    0.03     -0.15       0.12     -0.12    -0.02
-## QCA_metacognition                 -0.10     -0.14      -0.01     -0.27    -0.18
-## QCA_behavior                       0.19      0.11      -0.25     -0.20    -0.24
-## QCA_internal                      -0.02     -0.13      -0.17     -0.47    -0.38
-## QCA_external                      -0.14     -0.28       0.28      0.05     0.16
-## QCA_temporal                       0.01      0.09      -0.07     -0.17    -0.14
-## QCA_total                          0.04     -0.04      -0.03     -0.29    -0.20
-## Acc_Total                          0.06     -0.02      -0.23     -0.14    -0.19
-## RT_Total                           0.24      0.08      -0.18     -0.06    -0.12
-##                         QA_ease QA_attractive QA_comprehen QA_function
-## QPS_complexite            -0.03         -0.26        -0.10        0.13
-## QPS_autonomie              0.11         -0.23        -0.11       -0.09
-## QPS_interaction           -0.12         -0.06        -0.10       -0.36
-## QPS_changement             0.07         -0.13        -0.02        0.17
-## QPS_incertitude           -0.19         -0.33        -0.08       -0.18
-## QPS_vision_hiérarchique    0.16          0.08        -0.06        0.01
-## QPS_flexibilité            0.10         -0.02         0.11        0.25
-## QPS_TOTAL                  0.01         -0.22        -0.10       -0.05
-## QE_focused                 0.00          0.25        -0.04       -0.42
-## QE_reward                  0.20          0.30         0.36       -0.25
-## QE_total                   0.13          0.30         0.22       -0.35
-## QA_ease                    1.00          0.47         0.65        0.05
-## QA_attractive              0.47          1.00         0.44        0.12
-## QA_comprehen               0.65          0.44         1.00       -0.07
-## QA_function                0.05          0.12        -0.07        1.00
-## QSPD_rational              0.18          0.27         0.45       -0.18
-## QSPD_intuitive            -0.06          0.08        -0.26       -0.02
-## QSPD_dependent            -0.05         -0.26        -0.28       -0.33
-## QSPD_avoidant              0.07         -0.16        -0.06       -0.21
-## QSPD_spontaneous          -0.01         -0.22        -0.12        0.40
-## QCA_motivation            -0.08         -0.13         0.04       -0.22
-## QCA_explanation            0.16          0.07        -0.11        0.15
-## QCA_metacognition         -0.03         -0.05         0.17       -0.20
-## QCA_behavior               0.22          0.02         0.32       -0.21
-## QCA_internal              -0.05         -0.11         0.12       -0.07
-## QCA_external              -0.07          0.16         0.14       -0.33
-## QCA_temporal              -0.23         -0.12        -0.09       -0.19
-## QCA_total                  0.00         -0.04         0.12       -0.20
-## Acc_Total                  0.01         -0.29         0.13       -0.17
-## RT_Total                   0.26          0.02         0.43        0.02
-##                         QSPD_rational QSPD_intuitive QSPD_dependent
-## QPS_complexite                  -0.11          -0.22           0.22
-## QPS_autonomie                   -0.18           0.42           0.08
-## QPS_interaction                  0.04          -0.06           0.30
-## QPS_changement                  -0.45          -0.04          -0.02
-## QPS_incertitude                  0.09          -0.24           0.39
-## QPS_vision_hiérarchique          0.18           0.30          -0.02
-## QPS_flexibilité                 -0.08           0.07          -0.06
-## QPS_TOTAL                       -0.09           0.06           0.22
-## QE_focused                       0.14           0.24           0.05
-## QE_reward                        0.14          -0.06           0.10
-## QE_total                         0.15           0.06           0.09
-## QA_ease                          0.18          -0.06          -0.05
-## QA_attractive                    0.27           0.08          -0.26
-## QA_comprehen                     0.45          -0.26          -0.28
-## QA_function                     -0.18          -0.02          -0.33
-## QSPD_rational                    1.00          -0.26           0.05
-## QSPD_intuitive                  -0.26           1.00          -0.09
-## QSPD_dependent                   0.05          -0.09           1.00
-## QSPD_avoidant                   -0.12           0.01           0.22
-## QSPD_spontaneous                -0.51           0.31          -0.31
-## QCA_motivation                   0.26          -0.09           0.18
-## QCA_explanation                  0.33           0.27           0.28
-## QCA_metacognition                0.48          -0.21          -0.08
-## QCA_behavior                     0.63          -0.09           0.11
-## QCA_internal                     0.59          -0.27           0.02
-## QCA_external                     0.34           0.17          -0.06
-## QCA_temporal                     0.21          -0.18           0.14
-## QCA_total                        0.62          -0.08           0.14
-## Acc_Total                        0.18          -0.30           0.04
-## RT_Total                         0.30          -0.10          -0.25
-##                         QSPD_avoidant QSPD_spontaneous QCA_motivation
-## QPS_complexite                   0.32             0.09           0.31
-## QPS_autonomie                    0.17             0.16          -0.16
-## QPS_interaction                  0.04            -0.01           0.67
-## QPS_changement                   0.15             0.30          -0.15
-## QPS_incertitude                  0.40            -0.16           0.28
-## QPS_vision_hiérarchique         -0.19            -0.01           0.09
-## QPS_flexibilité                  0.08             0.19           0.17
-## QPS_TOTAL                        0.22             0.10           0.30
-## QE_focused                       0.08            -0.06          -0.01
-## QE_reward                        0.16            -0.07          -0.11
-## QE_total                         0.14            -0.08          -0.08
-## QA_ease                          0.07            -0.01          -0.08
-## QA_attractive                   -0.16            -0.22          -0.13
-## QA_comprehen                    -0.06            -0.12           0.04
-## QA_function                     -0.21             0.40          -0.22
-## QSPD_rational                   -0.12            -0.51           0.26
-## QSPD_intuitive                   0.01             0.31          -0.09
-## QSPD_dependent                   0.22            -0.31           0.18
-## QSPD_avoidant                    1.00            -0.11           0.11
-## QSPD_spontaneous                -0.11             1.00          -0.02
-## QCA_motivation                   0.11            -0.02           1.00
-## QCA_explanation                 -0.19            -0.07          -0.11
-## QCA_metacognition               -0.18            -0.14           0.43
-## QCA_behavior                     0.07            -0.33           0.49
-## QCA_internal                    -0.26            -0.17           0.35
-## QCA_external                    -0.01             0.00           0.36
-## QCA_temporal                     0.02            -0.10           0.48
-## QCA_total                       -0.11            -0.19           0.61
-## Acc_Total                       -0.04            -0.24          -0.27
-## RT_Total                         0.11             0.09          -0.02
-##                         QCA_explanation QCA_metacognition QCA_behavior
-## QPS_complexite                    -0.04             -0.23        -0.08
-## QPS_autonomie                     -0.09             -0.30        -0.16
-## QPS_interaction                   -0.16              0.26         0.17
-## QPS_changement                    -0.35             -0.43        -0.07
-## QPS_incertitude                   -0.34             -0.02         0.30
-## QPS_vision_hiérarchique            0.23              0.08         0.11
-## QPS_flexibilité                    0.03             -0.10         0.19
-## QPS_TOTAL                         -0.15             -0.14         0.11
-## QE_focused                         0.12             -0.01        -0.25
-## QE_reward                         -0.12             -0.27        -0.20
-## QE_total                          -0.02             -0.18        -0.24
-## QA_ease                            0.16             -0.03         0.22
-## QA_attractive                      0.07             -0.05         0.02
-## QA_comprehen                      -0.11              0.17         0.32
-## QA_function                        0.15             -0.20        -0.21
-## QSPD_rational                      0.33              0.48         0.63
-## QSPD_intuitive                     0.27             -0.21        -0.09
-## QSPD_dependent                     0.28             -0.08         0.11
-## QSPD_avoidant                     -0.19             -0.18         0.07
-## QSPD_spontaneous                  -0.07             -0.14        -0.33
-## QCA_motivation                    -0.11              0.43         0.49
-## QCA_explanation                    1.00              0.11         0.10
-## QCA_metacognition                  0.11              1.00         0.47
-## QCA_behavior                       0.10              0.47         1.00
-## QCA_internal                       0.37              0.75         0.49
-## QCA_external                       0.19              0.73         0.30
-## QCA_temporal                      -0.07              0.59         0.41
-## QCA_total                          0.40              0.84         0.69
-## Acc_Total                          0.16              0.25         0.17
-## RT_Total                           0.04              0.30         0.48
-##                         QCA_internal QCA_external QCA_temporal QCA_total
-## QPS_complexite                 -0.09        -0.31        -0.04     -0.10
-## QPS_autonomie                  -0.25        -0.39        -0.19     -0.32
-## QPS_interaction                 0.10         0.23         0.46      0.34
-## QPS_changement                 -0.35        -0.49        -0.18     -0.43
-## QPS_incertitude                -0.11        -0.19         0.18      0.01
-## QPS_vision_hiérarchique         0.07        -0.03         0.06      0.14
-## QPS_flexibilité                -0.02        -0.14         0.01      0.04
-## QPS_TOTAL                      -0.13        -0.28         0.09     -0.04
-## QE_focused                     -0.17         0.28        -0.07     -0.03
-## QE_reward                      -0.47         0.05        -0.17     -0.29
-## QE_total                       -0.38         0.16        -0.14     -0.20
-## QA_ease                        -0.05        -0.07        -0.23      0.00
-## QA_attractive                  -0.11         0.16        -0.12     -0.04
-## QA_comprehen                    0.12         0.14        -0.09      0.12
-## QA_function                    -0.07        -0.33        -0.19     -0.20
-## QSPD_rational                   0.59         0.34         0.21      0.62
-## QSPD_intuitive                 -0.27         0.17        -0.18     -0.08
-## QSPD_dependent                  0.02        -0.06         0.14      0.14
-## QSPD_avoidant                  -0.26        -0.01         0.02     -0.11
-## QSPD_spontaneous               -0.17         0.00        -0.10     -0.19
-## QCA_motivation                  0.35         0.36         0.48      0.61
-## QCA_explanation                 0.37         0.19        -0.07      0.40
-## QCA_metacognition               0.75         0.73         0.59      0.84
-## QCA_behavior                    0.49         0.30         0.41      0.69
-## QCA_internal                    1.00         0.46         0.45      0.84
-## QCA_external                    0.46         1.00         0.35      0.68
-## QCA_temporal                    0.45         0.35         1.00      0.65
-## QCA_total                       0.84         0.68         0.65      1.00
-## Acc_Total                       0.25         0.00         0.19      0.18
-## RT_Total                        0.32         0.24         0.18      0.33
-##                         Acc_Total RT_Total
-## QPS_complexite               0.08     0.09
-## QPS_autonomie               -0.14    -0.11
-## QPS_interaction             -0.14    -0.05
-## QPS_changement              -0.13     0.11
-## QPS_incertitude              0.11     0.01
-## QPS_vision_hiérarchique      0.05     0.10
-## QPS_flexibilité              0.06     0.24
-## QPS_TOTAL                   -0.02     0.08
-## QE_focused                  -0.23    -0.18
-## QE_reward                   -0.14    -0.06
-## QE_total                    -0.19    -0.12
-## QA_ease                      0.01     0.26
-## QA_attractive               -0.29     0.02
-## QA_comprehen                 0.13     0.43
-## QA_function                 -0.17     0.02
-## QSPD_rational                0.18     0.30
-## QSPD_intuitive              -0.30    -0.10
-## QSPD_dependent               0.04    -0.25
-## QSPD_avoidant               -0.04     0.11
-## QSPD_spontaneous            -0.24     0.09
-## QCA_motivation              -0.27    -0.02
-## QCA_explanation              0.16     0.04
-## QCA_metacognition            0.25     0.30
-## QCA_behavior                 0.17     0.48
-## QCA_internal                 0.25     0.32
-## QCA_external                 0.00     0.24
-## QCA_temporal                 0.19     0.18
-## QCA_total                    0.18     0.33
-## Acc_Total                    1.00     0.62
-## RT_Total                     0.62     1.00</code></pre>
+<pre><code>##                         Perf_Vote Perf_Dette Perf_Formule QPS_complexite
+## Perf_Vote                    1.00      -0.30         0.16           0.21
+## Perf_Dette                  -0.30       1.00         0.79           0.12
+## Perf_Formule                 0.16       0.79         1.00           0.21
+## QPS_complexite               0.21       0.12         0.21           1.00
+## QPS_autonomie                0.02       0.08         0.20           0.19
+## QPS_interaction             -0.17      -0.03        -0.24           0.55
+## QPS_changement              -0.06       0.03        -0.01           0.43
+## QPS_incertitude             -0.14      -0.19        -0.14           0.41
+## QPS_vision_hiérarchique      0.05       0.06        -0.03           0.38
+## QPS_flexibilité              0.01       0.16         0.09           0.47
+## QPS_TOTAL                   -0.01       0.04         0.01           0.80
+## QE_focused                  -0.23      -0.13        -0.15          -0.30
+## QE_reward                   -0.02      -0.45        -0.32          -0.09
+## QE_total                    -0.11      -0.35        -0.27          -0.19
+## QA_ease                      0.41      -0.07         0.20          -0.03
+## QA_attractive               -0.13      -0.19        -0.16          -0.26
+## QA_comprehen                 0.37      -0.26         0.02          -0.10
+## QA_function                  0.13       0.32         0.36           0.13
+## QSPD_rational                0.33      -0.29        -0.15          -0.11
+## QSPD_intuitive              -0.19      -0.05        -0.17          -0.22
+## QSPD_dependent              -0.11       0.05        -0.12           0.22
+## QSPD_avoidant                0.12       0.01         0.22           0.32
+## QSPD_spontaneous            -0.18       0.32         0.19           0.09
+## QCA_motivation               0.10      -0.15        -0.15           0.31
+## QCA_explanation              0.34       0.04         0.04          -0.04
+## QCA_metacognition            0.06       0.06        -0.01          -0.23
+## QCA_behavior                 0.33      -0.38        -0.35          -0.08
+## QCA_internal                 0.27       0.16         0.12          -0.09
+## QCA_external                -0.12      -0.13        -0.29          -0.31
+## QCA_temporal                -0.07       0.03        -0.20          -0.04
+## QCA_total                    0.24      -0.07        -0.16          -0.10
+## Acc_Total                    0.23      -0.05        -0.04           0.08
+## RT_Total                     0.31      -0.15        -0.12           0.09
+##                         QPS_autonomie QPS_interaction QPS_changement
+## Perf_Vote                        0.02           -0.17          -0.06
+## Perf_Dette                       0.08           -0.03           0.03
+## Perf_Formule                     0.20           -0.24          -0.01
+## QPS_complexite                   0.19            0.55           0.43
+## QPS_autonomie                    1.00            0.05           0.39
+## QPS_interaction                  0.05            1.00           0.18
+## QPS_changement                   0.39            0.18           1.00
+## QPS_incertitude                  0.28            0.26           0.31
+## QPS_vision_hiérarchique          0.51            0.47           0.12
+## QPS_flexibilité                 -0.08            0.27           0.43
+## QPS_TOTAL                        0.56            0.67           0.61
+## QE_focused                       0.11            0.04          -0.28
+## QE_reward                        0.07           -0.03          -0.03
+## QE_total                         0.09            0.00          -0.15
+## QA_ease                          0.11           -0.12           0.07
+## QA_attractive                   -0.23           -0.06          -0.13
+## QA_comprehen                    -0.11           -0.10          -0.02
+## QA_function                     -0.09           -0.36           0.17
+## QSPD_rational                   -0.18            0.04          -0.45
+## QSPD_intuitive                   0.42           -0.06          -0.04
+## QSPD_dependent                   0.08            0.30          -0.02
+## QSPD_avoidant                    0.17            0.04           0.15
+## QSPD_spontaneous                 0.16           -0.01           0.30
+## QCA_motivation                  -0.16            0.67          -0.15
+## QCA_explanation                 -0.09           -0.16          -0.35
+## QCA_metacognition               -0.30            0.26          -0.43
+## QCA_behavior                    -0.16            0.17          -0.07
+## QCA_internal                    -0.25            0.10          -0.35
+## QCA_external                    -0.39            0.23          -0.49
+## QCA_temporal                    -0.19            0.46          -0.18
+## QCA_total                       -0.32            0.34          -0.43
+## Acc_Total                       -0.14           -0.14          -0.13
+## RT_Total                        -0.11           -0.05           0.11
+##                         QPS_incertitude QPS_vision_hiérarchique QPS_flexibilité
+## Perf_Vote                         -0.14                    0.05            0.01
+## Perf_Dette                        -0.19                    0.06            0.16
+## Perf_Formule                      -0.14                   -0.03            0.09
+## QPS_complexite                     0.41                    0.38            0.47
+## QPS_autonomie                      0.28                    0.51           -0.08
+## QPS_interaction                    0.26                    0.47            0.27
+## QPS_changement                     0.31                    0.12            0.43
+## QPS_incertitude                    1.00                    0.05            0.06
+## QPS_vision_hiérarchique            0.05                    1.00            0.11
+## QPS_flexibilité                    0.06                    0.11            1.00
+## QPS_TOTAL                          0.56                    0.65            0.47
+## QE_focused                        -0.24                    0.00           -0.44
+## QE_reward                          0.06                   -0.15           -0.34
+## QE_total                          -0.07                   -0.10           -0.41
+## QA_ease                           -0.19                    0.16            0.10
+## QA_attractive                     -0.33                    0.08           -0.02
+## QA_comprehen                      -0.08                   -0.06            0.11
+## QA_function                       -0.18                    0.01            0.25
+## QSPD_rational                      0.09                    0.18           -0.08
+## QSPD_intuitive                    -0.24                    0.30            0.07
+## QSPD_dependent                     0.39                   -0.02           -0.06
+## QSPD_avoidant                      0.40                   -0.19            0.08
+## QSPD_spontaneous                  -0.16                   -0.01            0.19
+## QCA_motivation                     0.28                    0.09            0.17
+## QCA_explanation                   -0.34                    0.23            0.03
+## QCA_metacognition                 -0.02                    0.08           -0.10
+## QCA_behavior                       0.30                    0.11            0.19
+## QCA_internal                      -0.11                    0.07           -0.02
+## QCA_external                      -0.19                   -0.03           -0.14
+## QCA_temporal                       0.18                    0.06            0.01
+## QCA_total                          0.01                    0.14            0.04
+## Acc_Total                          0.11                    0.05            0.06
+## RT_Total                           0.01                    0.10            0.24
+##                         QPS_TOTAL QE_focused QE_reward QE_total QA_ease
+## Perf_Vote                   -0.01      -0.23     -0.02    -0.11    0.41
+## Perf_Dette                   0.04      -0.13     -0.45    -0.35   -0.07
+## Perf_Formule                 0.01      -0.15     -0.32    -0.27    0.20
+## QPS_complexite               0.80      -0.30     -0.09    -0.19   -0.03
+## QPS_autonomie                0.56       0.11      0.07     0.09    0.11
+## QPS_interaction              0.67       0.04     -0.03     0.00   -0.12
+## QPS_changement               0.61      -0.28     -0.03    -0.15    0.07
+## QPS_incertitude              0.56      -0.24      0.06    -0.07   -0.19
+## QPS_vision_hiérarchique      0.65       0.00     -0.15    -0.10    0.16
+## QPS_flexibilité              0.47      -0.44     -0.34    -0.41    0.10
+## QPS_TOTAL                    1.00      -0.22     -0.10    -0.17    0.01
+## QE_focused                  -0.22       1.00      0.66     0.87    0.00
+## QE_reward                   -0.10       0.66      1.00     0.94    0.20
+## QE_total                    -0.17       0.87      0.94     1.00    0.13
+## QA_ease                      0.01       0.00      0.20     0.13    1.00
+## QA_attractive               -0.22       0.25      0.30     0.30    0.47
+## QA_comprehen                -0.10      -0.04      0.36     0.22    0.65
+## QA_function                 -0.05      -0.42     -0.25    -0.35    0.05
+## QSPD_rational               -0.09       0.14      0.14     0.15    0.18
+## QSPD_intuitive               0.06       0.24     -0.06     0.06   -0.06
+## QSPD_dependent               0.22       0.05      0.10     0.09   -0.05
+## QSPD_avoidant                0.22       0.08      0.16     0.14    0.07
+## QSPD_spontaneous             0.10      -0.06     -0.07    -0.08   -0.01
+## QCA_motivation               0.30      -0.01     -0.11    -0.08   -0.08
+## QCA_explanation             -0.15       0.12     -0.12    -0.02    0.16
+## QCA_metacognition           -0.14      -0.01     -0.27    -0.18   -0.03
+## QCA_behavior                 0.11      -0.25     -0.20    -0.24    0.22
+## QCA_internal                -0.13      -0.17     -0.47    -0.38   -0.05
+## QCA_external                -0.28       0.28      0.05     0.16   -0.07
+## QCA_temporal                 0.09      -0.07     -0.17    -0.14   -0.23
+## QCA_total                   -0.04      -0.03     -0.29    -0.20    0.00
+## Acc_Total                   -0.02      -0.23     -0.14    -0.19    0.01
+## RT_Total                     0.08      -0.18     -0.06    -0.12    0.26
+##                         QA_attractive QA_comprehen QA_function QSPD_rational
+## Perf_Vote                       -0.13         0.37        0.13          0.33
+## Perf_Dette                      -0.19        -0.26        0.32         -0.29
+## Perf_Formule                    -0.16         0.02        0.36         -0.15
+## QPS_complexite                  -0.26        -0.10        0.13         -0.11
+## QPS_autonomie                   -0.23        -0.11       -0.09         -0.18
+## QPS_interaction                 -0.06        -0.10       -0.36          0.04
+## QPS_changement                  -0.13        -0.02        0.17         -0.45
+## QPS_incertitude                 -0.33        -0.08       -0.18          0.09
+## QPS_vision_hiérarchique          0.08        -0.06        0.01          0.18
+## QPS_flexibilité                 -0.02         0.11        0.25         -0.08
+## QPS_TOTAL                       -0.22        -0.10       -0.05         -0.09
+## QE_focused                       0.25        -0.04       -0.42          0.14
+## QE_reward                        0.30         0.36       -0.25          0.14
+## QE_total                         0.30         0.22       -0.35          0.15
+## QA_ease                          0.47         0.65        0.05          0.18
+## QA_attractive                    1.00         0.44        0.12          0.27
+## QA_comprehen                     0.44         1.00       -0.07          0.45
+## QA_function                      0.12        -0.07        1.00         -0.18
+## QSPD_rational                    0.27         0.45       -0.18          1.00
+## QSPD_intuitive                   0.08        -0.26       -0.02         -0.26
+## QSPD_dependent                  -0.26        -0.28       -0.33          0.05
+## QSPD_avoidant                   -0.16        -0.06       -0.21         -0.12
+## QSPD_spontaneous                -0.22        -0.12        0.40         -0.51
+## QCA_motivation                  -0.13         0.04       -0.22          0.26
+## QCA_explanation                  0.07        -0.11        0.15          0.33
+## QCA_metacognition               -0.05         0.17       -0.20          0.48
+## QCA_behavior                     0.02         0.32       -0.21          0.63
+## QCA_internal                    -0.11         0.12       -0.07          0.59
+## QCA_external                     0.16         0.14       -0.33          0.34
+## QCA_temporal                    -0.12        -0.09       -0.19          0.21
+## QCA_total                       -0.04         0.12       -0.20          0.62
+## Acc_Total                       -0.29         0.13       -0.17          0.18
+## RT_Total                         0.02         0.43        0.02          0.30
+##                         QSPD_intuitive QSPD_dependent QSPD_avoidant
+## Perf_Vote                        -0.19          -0.11          0.12
+## Perf_Dette                       -0.05           0.05          0.01
+## Perf_Formule                     -0.17          -0.12          0.22
+## QPS_complexite                   -0.22           0.22          0.32
+## QPS_autonomie                     0.42           0.08          0.17
+## QPS_interaction                  -0.06           0.30          0.04
+## QPS_changement                   -0.04          -0.02          0.15
+## QPS_incertitude                  -0.24           0.39          0.40
+## QPS_vision_hiérarchique           0.30          -0.02         -0.19
+## QPS_flexibilité                   0.07          -0.06          0.08
+## QPS_TOTAL                         0.06           0.22          0.22
+## QE_focused                        0.24           0.05          0.08
+## QE_reward                        -0.06           0.10          0.16
+## QE_total                          0.06           0.09          0.14
+## QA_ease                          -0.06          -0.05          0.07
+## QA_attractive                     0.08          -0.26         -0.16
+## QA_comprehen                     -0.26          -0.28         -0.06
+## QA_function                      -0.02          -0.33         -0.21
+## QSPD_rational                    -0.26           0.05         -0.12
+## QSPD_intuitive                    1.00          -0.09          0.01
+## QSPD_dependent                   -0.09           1.00          0.22
+## QSPD_avoidant                     0.01           0.22          1.00
+## QSPD_spontaneous                  0.31          -0.31         -0.11
+## QCA_motivation                   -0.09           0.18          0.11
+## QCA_explanation                   0.27           0.28         -0.19
+## QCA_metacognition                -0.21          -0.08         -0.18
+## QCA_behavior                     -0.09           0.11          0.07
+## QCA_internal                     -0.27           0.02         -0.26
+## QCA_external                      0.17          -0.06         -0.01
+## QCA_temporal                     -0.18           0.14          0.02
+## QCA_total                        -0.08           0.14         -0.11
+## Acc_Total                        -0.30           0.04         -0.04
+## RT_Total                         -0.10          -0.25          0.11
+##                         QSPD_spontaneous QCA_motivation QCA_explanation
+## Perf_Vote                          -0.18           0.10            0.34
+## Perf_Dette                          0.32          -0.15            0.04
+## Perf_Formule                        0.19          -0.15            0.04
+## QPS_complexite                      0.09           0.31           -0.04
+## QPS_autonomie                       0.16          -0.16           -0.09
+## QPS_interaction                    -0.01           0.67           -0.16
+## QPS_changement                      0.30          -0.15           -0.35
+## QPS_incertitude                    -0.16           0.28           -0.34
+## QPS_vision_hiérarchique            -0.01           0.09            0.23
+## QPS_flexibilité                     0.19           0.17            0.03
+## QPS_TOTAL                           0.10           0.30           -0.15
+## QE_focused                         -0.06          -0.01            0.12
+## QE_reward                          -0.07          -0.11           -0.12
+## QE_total                           -0.08          -0.08           -0.02
+## QA_ease                            -0.01          -0.08            0.16
+## QA_attractive                      -0.22          -0.13            0.07
+## QA_comprehen                       -0.12           0.04           -0.11
+## QA_function                         0.40          -0.22            0.15
+## QSPD_rational                      -0.51           0.26            0.33
+## QSPD_intuitive                      0.31          -0.09            0.27
+## QSPD_dependent                     -0.31           0.18            0.28
+## QSPD_avoidant                      -0.11           0.11           -0.19
+## QSPD_spontaneous                    1.00          -0.02           -0.07
+## QCA_motivation                     -0.02           1.00           -0.11
+## QCA_explanation                    -0.07          -0.11            1.00
+## QCA_metacognition                  -0.14           0.43            0.11
+## QCA_behavior                       -0.33           0.49            0.10
+## QCA_internal                       -0.17           0.35            0.37
+## QCA_external                        0.00           0.36            0.19
+## QCA_temporal                       -0.10           0.48           -0.07
+## QCA_total                          -0.19           0.61            0.40
+## Acc_Total                          -0.24          -0.27            0.16
+## RT_Total                            0.09          -0.02            0.04
+##                         QCA_metacognition QCA_behavior QCA_internal
+## Perf_Vote                            0.06         0.33         0.27
+## Perf_Dette                           0.06        -0.38         0.16
+## Perf_Formule                        -0.01        -0.35         0.12
+## QPS_complexite                      -0.23        -0.08        -0.09
+## QPS_autonomie                       -0.30        -0.16        -0.25
+## QPS_interaction                      0.26         0.17         0.10
+## QPS_changement                      -0.43        -0.07        -0.35
+## QPS_incertitude                     -0.02         0.30        -0.11
+## QPS_vision_hiérarchique              0.08         0.11         0.07
+## QPS_flexibilité                     -0.10         0.19        -0.02
+## QPS_TOTAL                           -0.14         0.11        -0.13
+## QE_focused                          -0.01        -0.25        -0.17
+## QE_reward                           -0.27        -0.20        -0.47
+## QE_total                            -0.18        -0.24        -0.38
+## QA_ease                             -0.03         0.22        -0.05
+## QA_attractive                       -0.05         0.02        -0.11
+## QA_comprehen                         0.17         0.32         0.12
+## QA_function                         -0.20        -0.21        -0.07
+## QSPD_rational                        0.48         0.63         0.59
+## QSPD_intuitive                      -0.21        -0.09        -0.27
+## QSPD_dependent                      -0.08         0.11         0.02
+## QSPD_avoidant                       -0.18         0.07        -0.26
+## QSPD_spontaneous                    -0.14        -0.33        -0.17
+## QCA_motivation                       0.43         0.49         0.35
+## QCA_explanation                      0.11         0.10         0.37
+## QCA_metacognition                    1.00         0.47         0.75
+## QCA_behavior                         0.47         1.00         0.49
+## QCA_internal                         0.75         0.49         1.00
+## QCA_external                         0.73         0.30         0.46
+## QCA_temporal                         0.59         0.41         0.45
+## QCA_total                            0.84         0.69         0.84
+## Acc_Total                            0.25         0.17         0.25
+## RT_Total                             0.30         0.48         0.32
+##                         QCA_external QCA_temporal QCA_total Acc_Total RT_Total
+## Perf_Vote                      -0.12        -0.07      0.24      0.23     0.31
+## Perf_Dette                     -0.13         0.03     -0.07     -0.05    -0.15
+## Perf_Formule                   -0.29        -0.20     -0.16     -0.04    -0.12
+## QPS_complexite                 -0.31        -0.04     -0.10      0.08     0.09
+## QPS_autonomie                  -0.39        -0.19     -0.32     -0.14    -0.11
+## QPS_interaction                 0.23         0.46      0.34     -0.14    -0.05
+## QPS_changement                 -0.49        -0.18     -0.43     -0.13     0.11
+## QPS_incertitude                -0.19         0.18      0.01      0.11     0.01
+## QPS_vision_hiérarchique        -0.03         0.06      0.14      0.05     0.10
+## QPS_flexibilité                -0.14         0.01      0.04      0.06     0.24
+## QPS_TOTAL                      -0.28         0.09     -0.04     -0.02     0.08
+## QE_focused                      0.28        -0.07     -0.03     -0.23    -0.18
+## QE_reward                       0.05        -0.17     -0.29     -0.14    -0.06
+## QE_total                        0.16        -0.14     -0.20     -0.19    -0.12
+## QA_ease                        -0.07        -0.23      0.00      0.01     0.26
+## QA_attractive                   0.16        -0.12     -0.04     -0.29     0.02
+## QA_comprehen                    0.14        -0.09      0.12      0.13     0.43
+## QA_function                    -0.33        -0.19     -0.20     -0.17     0.02
+## QSPD_rational                   0.34         0.21      0.62      0.18     0.30
+## QSPD_intuitive                  0.17        -0.18     -0.08     -0.30    -0.10
+## QSPD_dependent                 -0.06         0.14      0.14      0.04    -0.25
+## QSPD_avoidant                  -0.01         0.02     -0.11     -0.04     0.11
+## QSPD_spontaneous                0.00        -0.10     -0.19     -0.24     0.09
+## QCA_motivation                  0.36         0.48      0.61     -0.27    -0.02
+## QCA_explanation                 0.19        -0.07      0.40      0.16     0.04
+## QCA_metacognition               0.73         0.59      0.84      0.25     0.30
+## QCA_behavior                    0.30         0.41      0.69      0.17     0.48
+## QCA_internal                    0.46         0.45      0.84      0.25     0.32
+## QCA_external                    1.00         0.35      0.68      0.00     0.24
+## QCA_temporal                    0.35         1.00      0.65      0.19     0.18
+## QCA_total                       0.68         0.65      1.00      0.18     0.33
+## Acc_Total                       0.00         0.19      0.18      1.00     0.62
+## RT_Total                        0.24         0.18      0.33      0.62     1.00</code></pre>
 <div id="excel-résultats-corrélation-pearson" class="section level2">
 <h2>Excel Résultats corrélation Pearson</h2>
 <p>[file here:] (<a href="https://alexandrewilliot.github.io/Gabrielle.T/Résultats_correlation_pearson.xlsx" class="uri">https://alexandrewilliot.github.io/Gabrielle.T/Résultats_correlation_pearson.xlsx</a>)</p>
@@ -1214,285 +1241,312 @@ summary {
 </div>
 <div id="matrice-corrélation-spearman" class="section level1">
 <h1>matrice corrélation spearman</h1>
-<pre><code>##                         QPS_complexite QPS_autonomie QPS_interaction
-## QPS_complexite                    1.00          0.26            0.51
-## QPS_autonomie                     0.26          1.00            0.10
-## QPS_interaction                   0.51          0.10            1.00
-## QPS_changement                    0.44          0.31            0.16
-## QPS_incertitude                   0.35          0.28            0.11
-## QPS_vision_hiérarchique           0.39          0.54            0.52
-## QPS_flexibilité                   0.49         -0.07            0.17
-## QPS_TOTAL                         0.81          0.59            0.61
-## QE_focused                       -0.29          0.02            0.00
-## QE_reward                        -0.16          0.06           -0.02
-## QE_total                         -0.21          0.08            0.03
-## QA_ease                          -0.01          0.11           -0.14
-## QA_attractive                    -0.24         -0.23           -0.01
-## QA_comprehen                     -0.07         -0.09           -0.03
-## QA_function                       0.05         -0.05           -0.37
-## QSPD_rational                    -0.08         -0.11            0.06
-## QSPD_intuitive                   -0.20          0.37           -0.06
-## QSPD_dependent                    0.26          0.09            0.30
-## QSPD_avoidant                     0.38          0.10            0.08
-## QSPD_spontaneous                  0.07          0.12            0.03
-## QCA_motivation                    0.17         -0.08            0.57
-## QCA_explanation                  -0.21         -0.34           -0.03
-## QCA_metacognition                -0.22         -0.28            0.30
-## QCA_behavior                     -0.08         -0.09            0.19
-## QCA_internal                     -0.03         -0.18            0.09
-## QCA_external                     -0.28         -0.37            0.26
-## QCA_temporal                     -0.04         -0.13            0.43
-## QCA_total                        -0.03         -0.31            0.36
-## Acc_Total                         0.03         -0.12           -0.19
-## RT_Total                          0.08          0.05           -0.06
-##                         QPS_changement QPS_incertitude QPS_vision_hiérarchique
-## QPS_complexite                    0.44            0.35                    0.39
-## QPS_autonomie                     0.31            0.28                    0.54
-## QPS_interaction                   0.16            0.11                    0.52
-## QPS_changement                    1.00            0.35                    0.15
-## QPS_incertitude                   0.35            1.00                    0.00
-## QPS_vision_hiérarchique           0.15            0.00                    1.00
-## QPS_flexibilité                   0.37            0.03                    0.14
-## QPS_TOTAL                         0.52            0.40                    0.70
-## QE_focused                       -0.32           -0.22                   -0.07
-## QE_reward                        -0.10            0.01                   -0.13
-## QE_total                         -0.16           -0.07                   -0.10
-## QA_ease                          -0.02           -0.17                    0.16
-## QA_attractive                    -0.27           -0.34                    0.07
-## QA_comprehen                      0.00           -0.09                   -0.05
-## QA_function                       0.17           -0.26                    0.03
-## QSPD_rational                    -0.31            0.02                    0.23
-## QSPD_intuitive                   -0.11           -0.23                    0.28
-## QSPD_dependent                   -0.12            0.36                    0.07
-## QSPD_avoidant                     0.25            0.47                   -0.16
-## QSPD_spontaneous                  0.32           -0.14                   -0.05
-## QCA_motivation                   -0.09            0.17                    0.13
-## QCA_explanation                  -0.40           -0.28                    0.10
-## QCA_metacognition                 0.00            0.00                    0.06
-## QCA_behavior                      0.09            0.26                    0.14
-## QCA_internal                     -0.09           -0.14                    0.07
-## QCA_external                     -0.17           -0.21                    0.01
-## QCA_temporal                     -0.04            0.15                    0.06
-## QCA_total                        -0.12            0.04                    0.16
-## Acc_Total                        -0.09            0.11                    0.01
-## RT_Total                          0.17            0.02                    0.13
-##                         QPS_flexibilité QPS_TOTAL QE_focused QE_reward QE_total
-## QPS_complexite                     0.49      0.81      -0.29     -0.16    -0.21
-## QPS_autonomie                     -0.07      0.59       0.02      0.06     0.08
-## QPS_interaction                    0.17      0.61       0.00     -0.02     0.03
-## QPS_changement                     0.37      0.52      -0.32     -0.10    -0.16
-## QPS_incertitude                    0.03      0.40      -0.22      0.01    -0.07
-## QPS_vision_hiérarchique            0.14      0.70      -0.07     -0.13    -0.10
-## QPS_flexibilité                    1.00      0.43      -0.44     -0.47    -0.51
-## QPS_TOTAL                          0.43      1.00      -0.28     -0.14    -0.18
-## QE_focused                        -0.44     -0.28       1.00      0.71     0.86
-## QE_reward                         -0.47     -0.14       0.71      1.00     0.96
-## QE_total                          -0.51     -0.18       0.86      0.96     1.00
-## QA_ease                            0.13      0.06      -0.02      0.19     0.11
-## QA_attractive                     -0.08     -0.24       0.26      0.30     0.29
-## QA_comprehen                       0.09     -0.08      -0.02      0.40     0.25
-## QA_function                        0.23      0.01      -0.23     -0.16    -0.23
-## QSPD_rational                     -0.03     -0.06       0.16      0.17     0.15
-## QSPD_intuitive                     0.05      0.04       0.12     -0.07     0.03
-## QSPD_dependent                    -0.20      0.19      -0.03     -0.03    -0.01
-## QSPD_avoidant                      0.09      0.23      -0.02      0.14     0.11
-## QSPD_spontaneous                   0.24      0.11      -0.17     -0.13    -0.12
-## QCA_motivation                     0.11      0.20      -0.02     -0.10    -0.09
-## QCA_explanation                   -0.01     -0.20       0.16      0.01     0.05
-## QCA_metacognition                  0.23     -0.04      -0.13     -0.27    -0.23
-## QCA_behavior                       0.18      0.08      -0.28     -0.25    -0.30
-## QCA_internal                       0.14     -0.08      -0.24     -0.48    -0.44
-## QCA_external                       0.02     -0.26       0.24      0.07     0.16
-## QCA_temporal                       0.04      0.16      -0.10     -0.16    -0.15
-## QCA_total                          0.12      0.02      -0.10     -0.23    -0.22
-## Acc_Total                          0.04      0.00      -0.22     -0.13    -0.19
-## RT_Total                           0.20      0.13      -0.27     -0.10    -0.16
-##                         QA_ease QA_attractive QA_comprehen QA_function
-## QPS_complexite            -0.01         -0.24        -0.07        0.05
-## QPS_autonomie              0.11         -0.23        -0.09       -0.05
-## QPS_interaction           -0.14         -0.01        -0.03       -0.37
-## QPS_changement            -0.02         -0.27         0.00        0.17
-## QPS_incertitude           -0.17         -0.34        -0.09       -0.26
-## QPS_vision_hiérarchique    0.16          0.07        -0.05        0.03
-## QPS_flexibilité            0.13         -0.08         0.09        0.23
-## QPS_TOTAL                  0.06         -0.24        -0.08        0.01
-## QE_focused                -0.02          0.26        -0.02       -0.23
-## QE_reward                  0.19          0.30         0.40       -0.16
-## QE_total                   0.11          0.29         0.25       -0.23
-## QA_ease                    1.00          0.47         0.62        0.18
-## QA_attractive              0.47          1.00         0.40        0.16
-## QA_comprehen               0.62          0.40         1.00        0.10
-## QA_function                0.18          0.16         0.10        1.00
-## QSPD_rational              0.22          0.23         0.40       -0.11
-## QSPD_intuitive            -0.06          0.13        -0.25        0.13
-## QSPD_dependent            -0.03         -0.22        -0.32       -0.35
-## QSPD_avoidant              0.01         -0.06        -0.10       -0.15
-## QSPD_spontaneous          -0.01         -0.25         0.06        0.37
-## QCA_motivation            -0.06         -0.08         0.14       -0.20
-## QCA_explanation            0.13          0.14         0.09        0.22
-## QCA_metacognition          0.07         -0.08         0.28       -0.16
-## QCA_behavior               0.15         -0.06         0.23       -0.14
-## QCA_internal               0.03         -0.11         0.11       -0.06
-## QCA_external              -0.03          0.17         0.20       -0.25
-## QCA_temporal              -0.25         -0.14        -0.01       -0.17
-## QCA_total                  0.05         -0.02         0.16       -0.13
-## Acc_Total                  0.03         -0.27         0.11       -0.19
-## RT_Total                   0.29         -0.02         0.40        0.06
-##                         QSPD_rational QSPD_intuitive QSPD_dependent
-## QPS_complexite                  -0.08          -0.20           0.26
-## QPS_autonomie                   -0.11           0.37           0.09
-## QPS_interaction                  0.06          -0.06           0.30
-## QPS_changement                  -0.31          -0.11          -0.12
-## QPS_incertitude                  0.02          -0.23           0.36
-## QPS_vision_hiérarchique          0.23           0.28           0.07
-## QPS_flexibilité                 -0.03           0.05          -0.20
-## QPS_TOTAL                       -0.06           0.04           0.19
-## QE_focused                       0.16           0.12          -0.03
-## QE_reward                        0.17          -0.07          -0.03
-## QE_total                         0.15           0.03          -0.01
-## QA_ease                          0.22          -0.06          -0.03
-## QA_attractive                    0.23           0.13          -0.22
-## QA_comprehen                     0.40          -0.25          -0.32
-## QA_function                     -0.11           0.13          -0.35
-## QSPD_rational                    1.00          -0.20          -0.04
-## QSPD_intuitive                  -0.20           1.00          -0.09
-## QSPD_dependent                  -0.04          -0.09           1.00
-## QSPD_avoidant                   -0.32           0.07           0.24
-## QSPD_spontaneous                -0.34           0.23          -0.33
-## QCA_motivation                   0.41          -0.04           0.15
-## QCA_explanation                  0.47           0.15           0.18
-## QCA_metacognition                0.37          -0.11          -0.02
-## QCA_behavior                     0.57          -0.06           0.07
-## QCA_internal                     0.54          -0.24           0.08
-## QCA_external                     0.28           0.25          -0.07
-## QCA_temporal                     0.19          -0.19           0.11
-## QCA_total                        0.58          -0.08           0.24
-## Acc_Total                        0.15          -0.33           0.06
-## RT_Total                         0.29           0.01          -0.25
-##                         QSPD_avoidant QSPD_spontaneous QCA_motivation
-## QPS_complexite                   0.38             0.07           0.17
-## QPS_autonomie                    0.10             0.12          -0.08
-## QPS_interaction                  0.08             0.03           0.57
-## QPS_changement                   0.25             0.32          -0.09
-## QPS_incertitude                  0.47            -0.14           0.17
-## QPS_vision_hiérarchique         -0.16            -0.05           0.13
-## QPS_flexibilité                  0.09             0.24           0.11
-## QPS_TOTAL                        0.23             0.11           0.20
-## QE_focused                      -0.02            -0.17          -0.02
-## QE_reward                        0.14            -0.13          -0.10
-## QE_total                         0.11            -0.12          -0.09
-## QA_ease                          0.01            -0.01          -0.06
-## QA_attractive                   -0.06            -0.25          -0.08
-## QA_comprehen                    -0.10             0.06           0.14
-## QA_function                     -0.15             0.37          -0.20
-## QSPD_rational                   -0.32            -0.34           0.41
-## QSPD_intuitive                   0.07             0.23          -0.04
-## QSPD_dependent                   0.24            -0.33           0.15
-## QSPD_avoidant                    1.00            -0.19          -0.02
-## QSPD_spontaneous                -0.19             1.00           0.05
-## QCA_motivation                  -0.02             0.05           1.00
-## QCA_explanation                 -0.40            -0.03           0.23
-## QCA_metacognition               -0.22             0.07           0.55
-## QCA_behavior                    -0.05            -0.17           0.68
-## QCA_internal                    -0.44            -0.04           0.46
-## QCA_external                     0.02             0.08           0.42
-## QCA_temporal                     0.01            -0.10           0.47
-## QCA_total                       -0.13            -0.17           0.74
-## Acc_Total                       -0.13            -0.23          -0.24
-## RT_Total                         0.01             0.12           0.12
-##                         QCA_explanation QCA_metacognition QCA_behavior
-## QPS_complexite                    -0.21             -0.22        -0.08
-## QPS_autonomie                     -0.34             -0.28        -0.09
-## QPS_interaction                   -0.03              0.30         0.19
-## QPS_changement                    -0.40              0.00         0.09
-## QPS_incertitude                   -0.28              0.00         0.26
-## QPS_vision_hiérarchique            0.10              0.06         0.14
-## QPS_flexibilité                   -0.01              0.23         0.18
-## QPS_TOTAL                         -0.20             -0.04         0.08
-## QE_focused                         0.16             -0.13        -0.28
-## QE_reward                          0.01             -0.27        -0.25
-## QE_total                           0.05             -0.23        -0.30
-## QA_ease                            0.13              0.07         0.15
-## QA_attractive                      0.14             -0.08        -0.06
-## QA_comprehen                       0.09              0.28         0.23
-## QA_function                        0.22             -0.16        -0.14
-## QSPD_rational                      0.47              0.37         0.57
-## QSPD_intuitive                     0.15             -0.11        -0.06
-## QSPD_dependent                     0.18             -0.02         0.07
-## QSPD_avoidant                     -0.40             -0.22        -0.05
-## QSPD_spontaneous                  -0.03              0.07        -0.17
-## QCA_motivation                     0.23              0.55         0.68
-## QCA_explanation                    1.00              0.36         0.28
-## QCA_metacognition                  0.36              1.00         0.67
-## QCA_behavior                       0.28              0.67         1.00
-## QCA_internal                       0.42              0.62         0.62
-## QCA_external                       0.40              0.70         0.37
-## QCA_temporal                       0.15              0.61         0.46
-## QCA_total                          0.61              0.78         0.84
-## Acc_Total                          0.08              0.19         0.13
-## RT_Total                          -0.01              0.34         0.48
-##                         QCA_internal QCA_external QCA_temporal QCA_total
-## QPS_complexite                 -0.03        -0.28        -0.04     -0.03
-## QPS_autonomie                  -0.18        -0.37        -0.13     -0.31
-## QPS_interaction                 0.09         0.26         0.43      0.36
-## QPS_changement                 -0.09        -0.17        -0.04     -0.12
-## QPS_incertitude                -0.14        -0.21         0.15      0.04
-## QPS_vision_hiérarchique         0.07         0.01         0.06      0.16
-## QPS_flexibilité                 0.14         0.02         0.04      0.12
-## QPS_TOTAL                      -0.08        -0.26         0.16      0.02
-## QE_focused                     -0.24         0.24        -0.10     -0.10
-## QE_reward                      -0.48         0.07        -0.16     -0.23
-## QE_total                       -0.44         0.16        -0.15     -0.22
-## QA_ease                         0.03        -0.03        -0.25      0.05
-## QA_attractive                  -0.11         0.17        -0.14     -0.02
-## QA_comprehen                    0.11         0.20        -0.01      0.16
-## QA_function                    -0.06        -0.25        -0.17     -0.13
-## QSPD_rational                   0.54         0.28         0.19      0.58
-## QSPD_intuitive                 -0.24         0.25        -0.19     -0.08
-## QSPD_dependent                  0.08        -0.07         0.11      0.24
-## QSPD_avoidant                  -0.44         0.02         0.01     -0.13
-## QSPD_spontaneous               -0.04         0.08        -0.10     -0.17
-## QCA_motivation                  0.46         0.42         0.47      0.74
-## QCA_explanation                 0.42         0.40         0.15      0.61
-## QCA_metacognition               0.62         0.70         0.61      0.78
-## QCA_behavior                    0.62         0.37         0.46      0.84
-## QCA_internal                    1.00         0.31         0.39      0.72
-## QCA_external                    0.31         1.00         0.30      0.60
-## QCA_temporal                    0.39         0.30         1.00      0.58
-## QCA_total                       0.72         0.60         0.58      1.00
-## Acc_Total                       0.29         0.00         0.21      0.12
-## RT_Total                        0.38         0.26         0.16      0.30
-##                         Acc_Total RT_Total
-## QPS_complexite               0.03     0.08
-## QPS_autonomie               -0.12     0.05
-## QPS_interaction             -0.19    -0.06
-## QPS_changement              -0.09     0.17
-## QPS_incertitude              0.11     0.02
-## QPS_vision_hiérarchique      0.01     0.13
-## QPS_flexibilité              0.04     0.20
-## QPS_TOTAL                    0.00     0.13
-## QE_focused                  -0.22    -0.27
-## QE_reward                   -0.13    -0.10
-## QE_total                    -0.19    -0.16
-## QA_ease                      0.03     0.29
-## QA_attractive               -0.27    -0.02
-## QA_comprehen                 0.11     0.40
-## QA_function                 -0.19     0.06
-## QSPD_rational                0.15     0.29
-## QSPD_intuitive              -0.33     0.01
-## QSPD_dependent               0.06    -0.25
-## QSPD_avoidant               -0.13     0.01
-## QSPD_spontaneous            -0.23     0.12
-## QCA_motivation              -0.24     0.12
-## QCA_explanation              0.08    -0.01
-## QCA_metacognition            0.19     0.34
-## QCA_behavior                 0.13     0.48
-## QCA_internal                 0.29     0.38
-## QCA_external                 0.00     0.26
-## QCA_temporal                 0.21     0.16
-## QCA_total                    0.12     0.30
-## Acc_Total                    1.00     0.60
-## RT_Total                     0.60     1.00</code></pre>
+<pre><code>##                         Perf_Vote Perf_Dette Perf_Formule QPS_complexite
+## Perf_Vote                    1.00      -0.31         0.49           0.17
+## Perf_Dette                  -0.31       1.00         0.53           0.22
+## Perf_Formule                 0.49       0.53         1.00           0.30
+## QPS_complexite               0.17       0.22         0.30           1.00
+## QPS_autonomie                0.01      -0.08         0.00           0.26
+## QPS_interaction             -0.23       0.08        -0.15           0.51
+## QPS_changement              -0.04       0.09         0.01           0.44
+## QPS_incertitude             -0.16      -0.22        -0.26           0.35
+## QPS_vision_hiérarchique      0.07       0.12         0.07           0.39
+## QPS_flexibilité              0.12       0.39         0.25           0.49
+## QPS_TOTAL                    0.12       0.03         0.08           0.81
+## QE_focused                  -0.24      -0.17        -0.26          -0.29
+## QE_reward                    0.00      -0.49        -0.38          -0.16
+## QE_total                    -0.13      -0.39        -0.39          -0.21
+## QA_ease                      0.43      -0.14         0.18          -0.01
+## QA_attractive               -0.13      -0.02        -0.29          -0.24
+## QA_comprehen                 0.33      -0.17         0.07          -0.07
+## QA_function                  0.26       0.36         0.47           0.05
+## QSPD_rational                0.30      -0.09         0.06          -0.08
+## QSPD_intuitive              -0.17      -0.06        -0.31          -0.20
+## QSPD_dependent              -0.08      -0.04         0.00           0.26
+## QSPD_avoidant               -0.03      -0.16        -0.07           0.38
+## QSPD_spontaneous            -0.18       0.26         0.06           0.07
+## QCA_motivation               0.07      -0.12        -0.05           0.17
+## QCA_explanation              0.30       0.07         0.10          -0.21
+## QCA_metacognition            0.00       0.05         0.05          -0.22
+## QCA_behavior                 0.26      -0.13        -0.04          -0.08
+## QCA_internal                 0.21       0.32         0.37          -0.03
+## QCA_external                -0.19      -0.06        -0.24          -0.28
+## QCA_temporal                -0.14       0.12        -0.01          -0.04
+## QCA_total                    0.22       0.00         0.07          -0.03
+## Acc_Total                    0.22      -0.03         0.13           0.03
+## RT_Total                     0.29      -0.06         0.07           0.08
+##                         QPS_autonomie QPS_interaction QPS_changement
+## Perf_Vote                        0.01           -0.23          -0.04
+## Perf_Dette                      -0.08            0.08           0.09
+## Perf_Formule                     0.00           -0.15           0.01
+## QPS_complexite                   0.26            0.51           0.44
+## QPS_autonomie                    1.00            0.10           0.31
+## QPS_interaction                  0.10            1.00           0.16
+## QPS_changement                   0.31            0.16           1.00
+## QPS_incertitude                  0.28            0.11           0.35
+## QPS_vision_hiérarchique          0.54            0.52           0.15
+## QPS_flexibilité                 -0.07            0.17           0.37
+## QPS_TOTAL                        0.59            0.61           0.52
+## QE_focused                       0.02            0.00          -0.32
+## QE_reward                        0.06           -0.02          -0.10
+## QE_total                         0.08            0.03          -0.16
+## QA_ease                          0.11           -0.14          -0.02
+## QA_attractive                   -0.23           -0.01          -0.27
+## QA_comprehen                    -0.09           -0.03           0.00
+## QA_function                     -0.05           -0.37           0.17
+## QSPD_rational                   -0.11            0.06          -0.31
+## QSPD_intuitive                   0.37           -0.06          -0.11
+## QSPD_dependent                   0.09            0.30          -0.12
+## QSPD_avoidant                    0.10            0.08           0.25
+## QSPD_spontaneous                 0.12            0.03           0.32
+## QCA_motivation                  -0.08            0.57          -0.09
+## QCA_explanation                 -0.34           -0.03          -0.40
+## QCA_metacognition               -0.28            0.30           0.00
+## QCA_behavior                    -0.09            0.19           0.09
+## QCA_internal                    -0.18            0.09          -0.09
+## QCA_external                    -0.37            0.26          -0.17
+## QCA_temporal                    -0.13            0.43          -0.04
+## QCA_total                       -0.31            0.36          -0.12
+## Acc_Total                       -0.12           -0.19          -0.09
+## RT_Total                         0.05           -0.06           0.17
+##                         QPS_incertitude QPS_vision_hiérarchique QPS_flexibilité
+## Perf_Vote                         -0.16                    0.07            0.12
+## Perf_Dette                        -0.22                    0.12            0.39
+## Perf_Formule                      -0.26                    0.07            0.25
+## QPS_complexite                     0.35                    0.39            0.49
+## QPS_autonomie                      0.28                    0.54           -0.07
+## QPS_interaction                    0.11                    0.52            0.17
+## QPS_changement                     0.35                    0.15            0.37
+## QPS_incertitude                    1.00                    0.00            0.03
+## QPS_vision_hiérarchique            0.00                    1.00            0.14
+## QPS_flexibilité                    0.03                    0.14            1.00
+## QPS_TOTAL                          0.40                    0.70            0.43
+## QE_focused                        -0.22                   -0.07           -0.44
+## QE_reward                          0.01                   -0.13           -0.47
+## QE_total                          -0.07                   -0.10           -0.51
+## QA_ease                           -0.17                    0.16            0.13
+## QA_attractive                     -0.34                    0.07           -0.08
+## QA_comprehen                      -0.09                   -0.05            0.09
+## QA_function                       -0.26                    0.03            0.23
+## QSPD_rational                      0.02                    0.23           -0.03
+## QSPD_intuitive                    -0.23                    0.28            0.05
+## QSPD_dependent                     0.36                    0.07           -0.20
+## QSPD_avoidant                      0.47                   -0.16            0.09
+## QSPD_spontaneous                  -0.14                   -0.05            0.24
+## QCA_motivation                     0.17                    0.13            0.11
+## QCA_explanation                   -0.28                    0.10           -0.01
+## QCA_metacognition                  0.00                    0.06            0.23
+## QCA_behavior                       0.26                    0.14            0.18
+## QCA_internal                      -0.14                    0.07            0.14
+## QCA_external                      -0.21                    0.01            0.02
+## QCA_temporal                       0.15                    0.06            0.04
+## QCA_total                          0.04                    0.16            0.12
+## Acc_Total                          0.11                    0.01            0.04
+## RT_Total                           0.02                    0.13            0.20
+##                         QPS_TOTAL QE_focused QE_reward QE_total QA_ease
+## Perf_Vote                    0.12      -0.24      0.00    -0.13    0.43
+## Perf_Dette                   0.03      -0.17     -0.49    -0.39   -0.14
+## Perf_Formule                 0.08      -0.26     -0.38    -0.39    0.18
+## QPS_complexite               0.81      -0.29     -0.16    -0.21   -0.01
+## QPS_autonomie                0.59       0.02      0.06     0.08    0.11
+## QPS_interaction              0.61       0.00     -0.02     0.03   -0.14
+## QPS_changement               0.52      -0.32     -0.10    -0.16   -0.02
+## QPS_incertitude              0.40      -0.22      0.01    -0.07   -0.17
+## QPS_vision_hiérarchique      0.70      -0.07     -0.13    -0.10    0.16
+## QPS_flexibilité              0.43      -0.44     -0.47    -0.51    0.13
+## QPS_TOTAL                    1.00      -0.28     -0.14    -0.18    0.06
+## QE_focused                  -0.28       1.00      0.71     0.86   -0.02
+## QE_reward                   -0.14       0.71      1.00     0.96    0.19
+## QE_total                    -0.18       0.86      0.96     1.00    0.11
+## QA_ease                      0.06      -0.02      0.19     0.11    1.00
+## QA_attractive               -0.24       0.26      0.30     0.29    0.47
+## QA_comprehen                -0.08      -0.02      0.40     0.25    0.62
+## QA_function                  0.01      -0.23     -0.16    -0.23    0.18
+## QSPD_rational               -0.06       0.16      0.17     0.15    0.22
+## QSPD_intuitive               0.04       0.12     -0.07     0.03   -0.06
+## QSPD_dependent               0.19      -0.03     -0.03    -0.01   -0.03
+## QSPD_avoidant                0.23      -0.02      0.14     0.11    0.01
+## QSPD_spontaneous             0.11      -0.17     -0.13    -0.12   -0.01
+## QCA_motivation               0.20      -0.02     -0.10    -0.09   -0.06
+## QCA_explanation             -0.20       0.16      0.01     0.05    0.13
+## QCA_metacognition           -0.04      -0.13     -0.27    -0.23    0.07
+## QCA_behavior                 0.08      -0.28     -0.25    -0.30    0.15
+## QCA_internal                -0.08      -0.24     -0.48    -0.44    0.03
+## QCA_external                -0.26       0.24      0.07     0.16   -0.03
+## QCA_temporal                 0.16      -0.10     -0.16    -0.15   -0.25
+## QCA_total                    0.02      -0.10     -0.23    -0.22    0.05
+## Acc_Total                    0.00      -0.22     -0.13    -0.19    0.03
+## RT_Total                     0.13      -0.27     -0.10    -0.16    0.29
+##                         QA_attractive QA_comprehen QA_function QSPD_rational
+## Perf_Vote                       -0.13         0.33        0.26          0.30
+## Perf_Dette                      -0.02        -0.17        0.36         -0.09
+## Perf_Formule                    -0.29         0.07        0.47          0.06
+## QPS_complexite                  -0.24        -0.07        0.05         -0.08
+## QPS_autonomie                   -0.23        -0.09       -0.05         -0.11
+## QPS_interaction                 -0.01        -0.03       -0.37          0.06
+## QPS_changement                  -0.27         0.00        0.17         -0.31
+## QPS_incertitude                 -0.34        -0.09       -0.26          0.02
+## QPS_vision_hiérarchique          0.07        -0.05        0.03          0.23
+## QPS_flexibilité                 -0.08         0.09        0.23         -0.03
+## QPS_TOTAL                       -0.24        -0.08        0.01         -0.06
+## QE_focused                       0.26        -0.02       -0.23          0.16
+## QE_reward                        0.30         0.40       -0.16          0.17
+## QE_total                         0.29         0.25       -0.23          0.15
+## QA_ease                          0.47         0.62        0.18          0.22
+## QA_attractive                    1.00         0.40        0.16          0.23
+## QA_comprehen                     0.40         1.00        0.10          0.40
+## QA_function                      0.16         0.10        1.00         -0.11
+## QSPD_rational                    0.23         0.40       -0.11          1.00
+## QSPD_intuitive                   0.13        -0.25        0.13         -0.20
+## QSPD_dependent                  -0.22        -0.32       -0.35         -0.04
+## QSPD_avoidant                   -0.06        -0.10       -0.15         -0.32
+## QSPD_spontaneous                -0.25         0.06        0.37         -0.34
+## QCA_motivation                  -0.08         0.14       -0.20          0.41
+## QCA_explanation                  0.14         0.09        0.22          0.47
+## QCA_metacognition               -0.08         0.28       -0.16          0.37
+## QCA_behavior                    -0.06         0.23       -0.14          0.57
+## QCA_internal                    -0.11         0.11       -0.06          0.54
+## QCA_external                     0.17         0.20       -0.25          0.28
+## QCA_temporal                    -0.14        -0.01       -0.17          0.19
+## QCA_total                       -0.02         0.16       -0.13          0.58
+## Acc_Total                       -0.27         0.11       -0.19          0.15
+## RT_Total                        -0.02         0.40        0.06          0.29
+##                         QSPD_intuitive QSPD_dependent QSPD_avoidant
+## Perf_Vote                        -0.17          -0.08         -0.03
+## Perf_Dette                       -0.06          -0.04         -0.16
+## Perf_Formule                     -0.31           0.00         -0.07
+## QPS_complexite                   -0.20           0.26          0.38
+## QPS_autonomie                     0.37           0.09          0.10
+## QPS_interaction                  -0.06           0.30          0.08
+## QPS_changement                   -0.11          -0.12          0.25
+## QPS_incertitude                  -0.23           0.36          0.47
+## QPS_vision_hiérarchique           0.28           0.07         -0.16
+## QPS_flexibilité                   0.05          -0.20          0.09
+## QPS_TOTAL                         0.04           0.19          0.23
+## QE_focused                        0.12          -0.03         -0.02
+## QE_reward                        -0.07          -0.03          0.14
+## QE_total                          0.03          -0.01          0.11
+## QA_ease                          -0.06          -0.03          0.01
+## QA_attractive                     0.13          -0.22         -0.06
+## QA_comprehen                     -0.25          -0.32         -0.10
+## QA_function                       0.13          -0.35         -0.15
+## QSPD_rational                    -0.20          -0.04         -0.32
+## QSPD_intuitive                    1.00          -0.09          0.07
+## QSPD_dependent                   -0.09           1.00          0.24
+## QSPD_avoidant                     0.07           0.24          1.00
+## QSPD_spontaneous                  0.23          -0.33         -0.19
+## QCA_motivation                   -0.04           0.15         -0.02
+## QCA_explanation                   0.15           0.18         -0.40
+## QCA_metacognition                -0.11          -0.02         -0.22
+## QCA_behavior                     -0.06           0.07         -0.05
+## QCA_internal                     -0.24           0.08         -0.44
+## QCA_external                      0.25          -0.07          0.02
+## QCA_temporal                     -0.19           0.11          0.01
+## QCA_total                        -0.08           0.24         -0.13
+## Acc_Total                        -0.33           0.06         -0.13
+## RT_Total                          0.01          -0.25          0.01
+##                         QSPD_spontaneous QCA_motivation QCA_explanation
+## Perf_Vote                          -0.18           0.07            0.30
+## Perf_Dette                          0.26          -0.12            0.07
+## Perf_Formule                        0.06          -0.05            0.10
+## QPS_complexite                      0.07           0.17           -0.21
+## QPS_autonomie                       0.12          -0.08           -0.34
+## QPS_interaction                     0.03           0.57           -0.03
+## QPS_changement                      0.32          -0.09           -0.40
+## QPS_incertitude                    -0.14           0.17           -0.28
+## QPS_vision_hiérarchique            -0.05           0.13            0.10
+## QPS_flexibilité                     0.24           0.11           -0.01
+## QPS_TOTAL                           0.11           0.20           -0.20
+## QE_focused                         -0.17          -0.02            0.16
+## QE_reward                          -0.13          -0.10            0.01
+## QE_total                           -0.12          -0.09            0.05
+## QA_ease                            -0.01          -0.06            0.13
+## QA_attractive                      -0.25          -0.08            0.14
+## QA_comprehen                        0.06           0.14            0.09
+## QA_function                         0.37          -0.20            0.22
+## QSPD_rational                      -0.34           0.41            0.47
+## QSPD_intuitive                      0.23          -0.04            0.15
+## QSPD_dependent                     -0.33           0.15            0.18
+## QSPD_avoidant                      -0.19          -0.02           -0.40
+## QSPD_spontaneous                    1.00           0.05           -0.03
+## QCA_motivation                      0.05           1.00            0.23
+## QCA_explanation                    -0.03           0.23            1.00
+## QCA_metacognition                   0.07           0.55            0.36
+## QCA_behavior                       -0.17           0.68            0.28
+## QCA_internal                       -0.04           0.46            0.42
+## QCA_external                        0.08           0.42            0.40
+## QCA_temporal                       -0.10           0.47            0.15
+## QCA_total                          -0.17           0.74            0.61
+## Acc_Total                          -0.23          -0.24            0.08
+## RT_Total                            0.12           0.12           -0.01
+##                         QCA_metacognition QCA_behavior QCA_internal
+## Perf_Vote                            0.00         0.26         0.21
+## Perf_Dette                           0.05        -0.13         0.32
+## Perf_Formule                         0.05        -0.04         0.37
+## QPS_complexite                      -0.22        -0.08        -0.03
+## QPS_autonomie                       -0.28        -0.09        -0.18
+## QPS_interaction                      0.30         0.19         0.09
+## QPS_changement                       0.00         0.09        -0.09
+## QPS_incertitude                      0.00         0.26        -0.14
+## QPS_vision_hiérarchique              0.06         0.14         0.07
+## QPS_flexibilité                      0.23         0.18         0.14
+## QPS_TOTAL                           -0.04         0.08        -0.08
+## QE_focused                          -0.13        -0.28        -0.24
+## QE_reward                           -0.27        -0.25        -0.48
+## QE_total                            -0.23        -0.30        -0.44
+## QA_ease                              0.07         0.15         0.03
+## QA_attractive                       -0.08        -0.06        -0.11
+## QA_comprehen                         0.28         0.23         0.11
+## QA_function                         -0.16        -0.14        -0.06
+## QSPD_rational                        0.37         0.57         0.54
+## QSPD_intuitive                      -0.11        -0.06        -0.24
+## QSPD_dependent                      -0.02         0.07         0.08
+## QSPD_avoidant                       -0.22        -0.05        -0.44
+## QSPD_spontaneous                     0.07        -0.17        -0.04
+## QCA_motivation                       0.55         0.68         0.46
+## QCA_explanation                      0.36         0.28         0.42
+## QCA_metacognition                    1.00         0.67         0.62
+## QCA_behavior                         0.67         1.00         0.62
+## QCA_internal                         0.62         0.62         1.00
+## QCA_external                         0.70         0.37         0.31
+## QCA_temporal                         0.61         0.46         0.39
+## QCA_total                            0.78         0.84         0.72
+## Acc_Total                            0.19         0.13         0.29
+## RT_Total                             0.34         0.48         0.38
+##                         QCA_external QCA_temporal QCA_total Acc_Total RT_Total
+## Perf_Vote                      -0.19        -0.14      0.22      0.22     0.29
+## Perf_Dette                     -0.06         0.12      0.00     -0.03    -0.06
+## Perf_Formule                   -0.24        -0.01      0.07      0.13     0.07
+## QPS_complexite                 -0.28        -0.04     -0.03      0.03     0.08
+## QPS_autonomie                  -0.37        -0.13     -0.31     -0.12     0.05
+## QPS_interaction                 0.26         0.43      0.36     -0.19    -0.06
+## QPS_changement                 -0.17        -0.04     -0.12     -0.09     0.17
+## QPS_incertitude                -0.21         0.15      0.04      0.11     0.02
+## QPS_vision_hiérarchique         0.01         0.06      0.16      0.01     0.13
+## QPS_flexibilité                 0.02         0.04      0.12      0.04     0.20
+## QPS_TOTAL                      -0.26         0.16      0.02      0.00     0.13
+## QE_focused                      0.24        -0.10     -0.10     -0.22    -0.27
+## QE_reward                       0.07        -0.16     -0.23     -0.13    -0.10
+## QE_total                        0.16        -0.15     -0.22     -0.19    -0.16
+## QA_ease                        -0.03        -0.25      0.05      0.03     0.29
+## QA_attractive                   0.17        -0.14     -0.02     -0.27    -0.02
+## QA_comprehen                    0.20        -0.01      0.16      0.11     0.40
+## QA_function                    -0.25        -0.17     -0.13     -0.19     0.06
+## QSPD_rational                   0.28         0.19      0.58      0.15     0.29
+## QSPD_intuitive                  0.25        -0.19     -0.08     -0.33     0.01
+## QSPD_dependent                 -0.07         0.11      0.24      0.06    -0.25
+## QSPD_avoidant                   0.02         0.01     -0.13     -0.13     0.01
+## QSPD_spontaneous                0.08        -0.10     -0.17     -0.23     0.12
+## QCA_motivation                  0.42         0.47      0.74     -0.24     0.12
+## QCA_explanation                 0.40         0.15      0.61      0.08    -0.01
+## QCA_metacognition               0.70         0.61      0.78      0.19     0.34
+## QCA_behavior                    0.37         0.46      0.84      0.13     0.48
+## QCA_internal                    0.31         0.39      0.72      0.29     0.38
+## QCA_external                    1.00         0.30      0.60      0.00     0.26
+## QCA_temporal                    0.30         1.00      0.58      0.21     0.16
+## QCA_total                       0.60         0.58      1.00      0.12     0.30
+## Acc_Total                       0.00         0.21      0.12      1.00     0.60
+## RT_Total                        0.26         0.16      0.30      0.60     1.00</code></pre>
 <div id="excel-résultats-corrélation-spearman" class="section level2">
 <h2>Excel Résultats corrélation Spearman</h2>
 <p>[file here:] (<a href="https://alexandrewilliot.github.io/Gabrielle.T/Résultats_correlation_spearman.xlsx" class="uri">https://alexandrewilliot.github.io/Gabrielle.T/Résultats_correlation_spearman.xlsx</a>)</p>
